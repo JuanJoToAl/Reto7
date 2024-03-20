@@ -21,7 +21,7 @@ while (numero < 100 + 1):
 flowchart TD
     A(Inicio) --> B[cuadrado : int];
     B-->C;
-    C[numero : int = 1] --> D{Mientras el número sea menor o igual que 100 realizar:}-- Sí -->E[El cuadrado del número es: numero**2];
+    C[numero : int = 1] --> D{¿El número es menor o igual que 100?}-- Sí -->E[El cuadrado del número es: numero**2];
     E --> F;
     F[Se imprime el número  y su cradrado] -->G[Se suma 1 al valor del número y se le asigna ese nuevo valor];
     G-->D;
@@ -50,7 +50,7 @@ while (numero <= 999):
 flowchart TD
     A(Inicio) --> B[numero : int = 1]
     B-->C;
-    C{Mientras el número sea menor o igual que 999 ralizar:} -- Sí --> D{¿número modulo 2 igual a uno?};
+    C{¿El número es menor o igual que 999?} -- Sí --> D{¿número modulo 2 igual a uno?};
     D -- Sí --> E[Se imprime el número y el número más uno en formato de listas]
     D-- No -->F[Se suma 1 a la variable número y se le asigna ese resultado cómo valor];
     F --> C;
