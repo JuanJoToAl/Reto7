@@ -89,7 +89,7 @@ while (numero >= 2):
 flowchart TD
     A(Inicio) --> B[numero : int ]
     B-->C;
-    C[Ingresar valor de la variable número] --> D{¿El número es menor que 2?};
+    C[Ingresar valor tipo entero de la variable número] --> D{¿El número es menor que 2?};
     D-- Sí-->E[Imprimir el número es menor que 2];
     E --> L
     D -- No ---> F{¿El número es mayor o igual a 2?};
