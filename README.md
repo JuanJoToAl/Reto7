@@ -91,10 +91,10 @@ flowchart TD
     B-->C;
     C[Ingresar valor tipo entero de la variable número] --> D{¿El número es menor que 2?};
     D-- Sí-->E[Imprimir el número es menor que 2];
-    E --> L
+    E ---> L
     D -- No ---> F{¿El número es mayor o igual a 2?};
     F --Sí --> G{¿El número módulo 2 es igual a 0?};
-    F --No --> L
+    F --No ---> L
     G-- Sí -->H[Imprimir el número];
     H--> I[Se resta dos al número y se le asigna ese resultado cómo valor]
     I--> F;
