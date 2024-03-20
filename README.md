@@ -50,7 +50,7 @@ while (numero <= 999):
 flowchart TD
     A(Inicio) --> B[numero : int = 1]
     B-->C;
-    C{¿El número es menor o igual que 999?} -- Sí --> D{¿número modulo 2 igual a uno?};
+    C{¿El número es menor o igual que 999?} -- Sí --> D{¿El número modulo 2 es igual a uno?};
     D -- Sí --> E[Se imprime el número y el número más uno en formato de listas]
     D-- No -->F[Se suma 1 a la variable número y se le asigna ese resultado cómo valor];
     F --> C;
