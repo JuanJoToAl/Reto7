@@ -25,7 +25,7 @@ flowchart TD
     E --> F;
     F[Se imprime el número  y su cradrado] -->G[Se suma 1 al valor del número y se le asigna ese nuevo valor];
     G-->D;
-    D-- No -->I;
+    D-- No ---->I;
     I(Fin);
 ```
 ## 2.  Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000
@@ -55,7 +55,7 @@ flowchart TD
     D-- No -->F[Se suma 1 a la variable número y se le asigna ese resultado cómo valor];
     F --> C;
     E --> F;
-    C -- No --> G;
+    C -- No ----> G;
     G(Fin)
 ```
 
