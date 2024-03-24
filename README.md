@@ -207,7 +207,7 @@ else:
 
 ```python
 # Se define función ejecutarNumero
-def ejecutarNumero(numero : float):
+def ejecutarNumero(numero : int):
 
   # Se ejecuta ciclo while hasta que número sea menor que 2
   while numero >= 2:
@@ -215,10 +215,10 @@ def ejecutarNumero(numero : float):
    numero -= 1 
 
 # Se define función evaluarNumeroSiPrimo
-def evaluarNumeroSiPrimo(numero : float):
+def evaluarNumeroSiPrimo(numero : int):
   
   # Se determina si el número es primo
-  modulo : float = 2
+  modulo : int = 2
   while numero % modulo != 0:
     modulo += 1
   if modulo >= numero**0.5:
@@ -226,6 +226,6 @@ def evaluarNumeroSiPrimo(numero : float):
 
 # Se llama a función ejecutarNumero y se declara e inicializa variable número
 if __name__ == "__main__":
-  numero : float = 100
-Numerosprimos = ejecutarNumero(numero)           
+  numero : int = 100
+Numerosprimos = ejecutarNumero(numero)                  
 ```
