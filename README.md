@@ -221,11 +221,11 @@ def evaluarNumeroSiPrimo(numero : float):
   modulo : float = 2
   while numero % modulo != 0:
     modulo += 1
-  if modulo == numero:
+  if modulo >= numero**0.5:
         print(numero)
 
 # Se llama a función ejecutarNumero y se declara e inicializa variable número
 if __name__ == "__main__":
   numero : float = 100
-Numerosprimos = ejecutarNumero(numero)         
+Numerosprimos = ejecutarNumero(numero)           
 ```
